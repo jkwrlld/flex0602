@@ -1,0 +1,71 @@
+.list1 {
+    display: flex;
+    list-style: none;
+}
+
+.list-item1:first-child {
+    flex-basis: 100px;
+    width: 200px;
+    order: 10;
+    flex-grow: 1;
+    background-color: aqua;
+}
+
+.list-item1:nth-child(2) {
+    order: 20;
+    flex-grow: 1;
+    background-color: chocolate;
+    flex-shrink: 5;
+}
+
+.list-item1:last-child {
+    order: -1;
+    flex-grow: 2;
+    background-color: darkgoldenrod;
+}
+
+.list-item1:nth-child(4) {
+    order: -2;
+    flex-grow: 1;
+    background-color: darkred;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    width: 500px;
+    flex-wrap: wrap;
+    border: 100px;
+    border-style: dotted;
+    border-color: blue;
+}
+
+.div1:first-child {
+    width: 50%;
+    background-color: crimson;
+    order: 1;
+}
+
+.div1:nth-child(5){
+    width: 50%;
+    background-color: blanchedalmond;
+    order: 2;
+}
+
+.div1:nth-child(2) {
+    width: 33%;
+    background-color: coral;
+    order: 3;
+}
+
+.div1:nth-child(3) {
+    width: 33%;
+    background-color: rgb(80, 255, 130);
+    order: 4;
+}
+
+.div1:nth-child(4) {
+    width: 33%;
+    background-color: rgb(252, 80, 255);
+    order: 5;
+}
